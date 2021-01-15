@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Quiz Interativo</title>
+</head>
+
+<body>
+    <div class="intro py-3 bg-warning text-center">
+        <div class="container">
+            <h2 class="text-dark display-3 my-3">Quiz da gula!</h2>
+        </div>
+    </div>
+
+    <div style="height: 90vh" class="quiz py-3 bg-dark">
+        <div class="container">
+            <h2 class="my-4 text-white">Você consegue acertar a comida mais famosa destes estados brasileiros?</h2>
+
+            <div class="row">
+                <div class="col-8">
+                    <form class="quiz-form text-light">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="my-4">
+                                    <p class="lead font-weight-normal">1. "Rio Grande do Sul:</p>
+                                    <div class="form-check my-2 text-white-50">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="inputQuestion1" value="A" checked>
+                                            Pizza
+                                        </label>
+                                    </div>
+                                    <div class="form-check my-2 text-white-50">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="inputQuestion1" value="B">
+                                            Churrasco
+                                        </label>
+                                    </div>
+                                    <div class="form-check my-2 text-white-50">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="inputQuestion1" value="C">
+                                            Polenta
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="my-4">
+                                    <p class="lead font-weight-normal">2. "Bahia:</p>
+                                    <div class="form-check my-2 text-white-50">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="inputQuestion2" value="A" checked>
+                                            Bobó de camarão
+                                        </label>
+                                    </div>
+                                    <div class="form-check my-2 text-white-50">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="inputQuestion2" value="B">
+                                            Vatapá
+                                        </label>
+                                    </div>
+                                    <div class="form-check my-2 text-white-50">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="inputQuestion2" value="C">
+                                            Acarajé
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="my-4">
+                                    <p class="lead font-weight-normal">3. "Minas Gerais:
+                                    </p>
+                                    <div class="form-check my-2 text-white-50">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="inputQuestion3" value="A" checked>
+                                            Pão de queijo
+                                        </label>
+                                    </div>
+                                    <div class="form-check my-2 text-white-50">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="inputQuestion3" value="B">
+                                            Vaca atolada
+                                        </label>
+                                    </div>
+                                    <div class="form-check my-2 text-white-50">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="inputQuestion3" value="C">
+                                            Feijão tropeiro
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="my-4">
+                                    <p class="lead font-weight-normal">4. "São Paulo:</p>
+                                    <div class="form-check my-2 text-white-50">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="inputQuestion4" value="A" checked>
+                                            Sanduíche de mortadela
+                                        </label>
+                                    </div>
+                                    <div class="form-check my-2 text-white-50">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="inputQuestion4" value="B">
+                                            Virado à paulista
+                                        </label>
+                                    </div>
+                                    <div class="form-check my-2 text-white-50">
+                                        <label class="form-check-label">
+                                            <input type="radio" name="inputQuestion4" value="C">
+                                            Cachorro-quente com purê de batata
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-outline-warning btn-lg btn-block">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="quiz-result col-4 text-center my-5">
+                    <h3 class="text-warning" style="font-weight: bold;">Só não fica com <span
+                            style="text-decoration: line-through;">FOME</span>!!!</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
